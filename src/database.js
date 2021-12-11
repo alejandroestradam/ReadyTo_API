@@ -7,5 +7,5 @@ mongoose
     useUnifiedTopology: true,
     useCreateIndex: true,
   })
-  .then((db) => console.log(`DB is connected`))
+  .then((db) => console.log(`DataBase is connected`))
   .catch((err) => console.log(err));
